@@ -1,0 +1,30 @@
+{
+	"name": "app",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"check": "biome check .",
+		"check:fix": "biome check --write .",
+		"check:lint": "biome lint .",
+		"check:format": "biome format .",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@tailwindcss/vite": "^4.0.16",
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0",
+		"tailwindcss": "^4.0.16"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@types/node": "^22.13.13",
+		"@types/react": "^19.0.12",
+		"@types/react-dom": "^19.0.4",
+		"@vitejs/plugin-react-swc": "^3.8.1",
+		"typescript": "^5.8.2",
+		"vite": "^6.2.3"
+	}
+}
