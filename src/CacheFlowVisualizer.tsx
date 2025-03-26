@@ -221,7 +221,6 @@ export function CacheFlowVisualizer({ selectedDirectives }: Props) {
         {/* 接続線 */}
         <svg className="absolute inset-0 w-full h-full" style={{ zIndex: -1 }}>
           <title>Cache Flow Visualization</title>
-          {/* ブラウザ→CDN線 */}
           <line
             x1="40"
             y1="40"
